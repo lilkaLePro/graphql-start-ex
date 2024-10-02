@@ -14,7 +14,7 @@ interface LayoutProps {
  */
 const Layout: React.FC<PropsWithChildren<LayoutProps>> = ({ fullWidth, children, grid }) => {
   return (
-    <>
+    <>  
       <Header />
       <PageContainer fullWidth={fullWidth} grid={grid}>
         {children}

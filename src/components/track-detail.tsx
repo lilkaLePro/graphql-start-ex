@@ -21,7 +21,7 @@ import MarkDown from './md-content';
 const TrackDetail: React.FC<{track: any}> = ({track}) => {
   const {
     title,
-    description,
+    description,  
     thumbnail,
     author = { photo: '', name: ''},
     length,

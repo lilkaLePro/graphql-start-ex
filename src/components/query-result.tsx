@@ -16,7 +16,7 @@ interface QueryResultProps {
  */
 const QueryResult: React.FC<PropsWithChildren<QueryResultProps>> = ({ loading, error, data, children }): React.ReactElement<any, any> | null => {
   if (error) {
-    return <p>ERROR: {error.message}</p>;
+    return <p>ERROR: {error.message} <br /> Details not found </p>;
   }
   if (loading) {
     return (
